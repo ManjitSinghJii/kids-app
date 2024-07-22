@@ -1,0 +1,52 @@
+body {
+    
+}
+#title-box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+#title-box i {
+    font-size: 80px;
+    color: #ddd;
+}
+#title {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+#container {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#result {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    display: none;
+}
+
+#app-btn {
+    display: flex;
+    gap: 8px;
+}
+
+#app-btn button { 
+    border: 1px solid #17A853;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+#app-btn button:hover {
+    background: #E83596;
+    color: white;
+    cursor: pointer;
+}
